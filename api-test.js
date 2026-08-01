@@ -1,5 +1,3 @@
-const fetch = require("node-fetch");
-
 async function test(){
     const res = await fetch("https://api.blablalink.com/api/ugc/proxy/standalonesite/User/GetUserCharacters",
         {
