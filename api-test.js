@@ -1,14 +1,14 @@
 const fetch = require("node-fetch");
 
 async function test(){
-    const res = await fetch("API URL",
+    const res = await fetch("https://api.blablalink.com/api/ugc/proxy/standalonesite/User/GetUserInfoNew",
         {
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
             },
             body:JSON.stringify({
-                intl_open_id:"YOUR_ID",
+                intl_open_id:"17416912059271956928",
                 nikke_area_id:83
             })
         }
